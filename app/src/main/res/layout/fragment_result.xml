@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/main_colour_grey"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/main_colour_grey"
     tools:context=".ResultFragment">
-
 
 
     <androidx.constraintlayout.widget.Guideline
@@ -69,7 +68,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat_black"
-        android:gravity="end"
+        android:gravity="center"
         android:text="Please wait...be patient.."
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="@id/lottie_anim_vaiting"
@@ -84,27 +83,27 @@
         android:src="@drawable/ic_baseline_close_24"
         app:layout_constraintBottom_toBottomOf="@id/guideline_hor_10"
         app:layout_constraintDimensionRatio="1,1"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_85"
-        app:layout_constraintTop_toTopOf="@id/guideline_hor_05"
-        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"/>
+        app:layout_constraintTop_toTopOf="@id/guideline_hor_05" />
 
     <ImageView
-        android:layout_width="0dp"
         android:id="@+id/img_main"
+        android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintStart_toStartOf="@id/guideline_vert_05"
-        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
-        app:layout_constraintTop_toTopOf="@id/guideline_hor_10"
-        app:layout_constraintDimensionRatio="1,1"
+        android:src="@drawable/main_logo"
         app:layout_constraintBottom_toBottomOf="@id/guideline_hor_50"
-        android:src="@drawable/main_logo"/>
+        app:layout_constraintDimensionRatio="1,1"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
+        app:layout_constraintStart_toStartOf="@id/guideline_vert_05"
+        app:layout_constraintTop_toTopOf="@id/guideline_hor_10" />
 
     <TextView
         android:id="@+id/tv_result_text"
         android:layout_width="300dp"
         android:layout_height="0dp"
-        android:elevation="1dp"
         android:layout_margin="64dp"
+        android:elevation="1dp"
         android:gravity="center_vertical"
         android:textColor="@color/black"
         android:textSize="25sp"

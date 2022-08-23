@@ -60,7 +60,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/lottie_anim_panda"
+        app:lottie_rawRes="@raw/lottie_meditation"
         tools:visibility="invisible" />
 
     <TextView

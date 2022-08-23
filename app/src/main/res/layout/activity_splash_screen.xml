@@ -68,32 +68,44 @@
         android:src="@drawable/main_logo"
         app:layout_constraintDimensionRatio="1,1" />
 
-    <ProgressBar
-        android:id="@+id/prog_bar_splash_scrn"
-        style="?android:attr/progressBarStyleHorizontal"
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_anim_progress"
         android:layout_width="0dp"
-        android:layout_marginTop="32dp"
-        android:layout_height="10dp"
-        android:progressDrawable="@drawable/custom_prog_bar"
-        app:layout_constraintEnd_toEndOf="@id/guideline_vert_70"
-        app:layout_constraintStart_toStartOf="@id/guideline_vert_30"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="1,3"
+        app:layout_constraintStart_toStartOf="@id/guideline_vert_20"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_80"
         app:layout_constraintTop_toBottomOf="@id/img_logo"
-        tools:progress="30" />
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/lottie_anim_progress" />
+
+<!--    <ProgressBar-->
+<!--        android:id="@+id/prog_bar_splash_scrn"-->
+<!--        style="?android:attr/progressBarStyleHorizontal"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:layout_height="10dp"-->
+<!--        android:progressDrawable="@drawable/custom_prog_bar"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/guideline_vert_70"-->
+<!--        app:layout_constraintStart_toStartOf="@id/guideline_vert_30"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/img_logo"-->
+<!--        tools:progress="30" />-->
 
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tv_loading"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:textSize="11sp"
-        android:fontFamily="@font/jost_bold"
-        android:gravity="center"
-        android:paddingTop="8dp"
-        android:text="@string/loading"
-        android:textColor="@color/black"
-        app:fontFamily="@font/montserrat_black"
-        app:layout_constraintEnd_toEndOf="@id/guideline_vert_70"
-        app:layout_constraintStart_toStartOf="@id/guideline_vert_30"
-        app:layout_constraintTop_toBottomOf="@id/prog_bar_splash_scrn" />
+<!--    <androidx.appcompat.widget.AppCompatTextView-->
+<!--        android:id="@+id/tv_loading"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="11sp"-->
+<!--        android:fontFamily="@font/jost_bold"-->
+<!--        android:gravity="center"-->
+<!--        android:paddingTop="8dp"-->
+<!--        android:text="@string/loading"-->
+<!--        android:textColor="@color/black"-->
+<!--        app:fontFamily="@font/montserrat_black"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/guideline_vert_70"-->
+<!--        app:layout_constraintStart_toStartOf="@id/guideline_vert_30"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/prog_bar_splash_scrn" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

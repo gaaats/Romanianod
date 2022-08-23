@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.PassGeneratorStarWars" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/add_colour_dark_blue</item>
+        <item name="colorPrimary">@color/add_colour_1</item>
         <item name="colorPrimaryVariant">@color/black</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->

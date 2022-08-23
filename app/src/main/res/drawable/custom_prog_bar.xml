@@ -12,8 +12,8 @@
         <scale android:scaleWidth="100%">
             <shape android:shape="rectangle">
                 <corners android:radius="18dp" />
-                <gradient android:startColor="#2D3E25"
-                    android:endColor="#1A8805"
+                <gradient android:startColor="@color/prog_bar_start_colour"
+                    android:endColor="#8D2502"
                     android:type="linear"/>
             </shape>
         </scale>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/main_colour_grey"
+    android:background="@color/main_colour_"
     tools:context=".ResultFragment">
 
 
@@ -69,6 +69,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat_black"
         android:gravity="center"
+        android:textColor="@color/main_colour_black"
         android:text="Please wait...be patient.."
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="@id/lottie_anim_vaiting"
@@ -123,6 +124,7 @@
         android:paddingStart="110dp"
         android:paddingEnd="100dp"
         android:text="copy"
+        android:fontFamily="@font/montserrat_black"
         android:textSize="20sp"
         app:icon="@drawable/ic_baseline_content_copy_24"
         app:layout_constraintBottom_toBottomOf="parent"

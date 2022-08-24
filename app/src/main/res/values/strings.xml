@@ -1,14 +1,23 @@
 <resources>
-    <string name="app_name">PassGeneratorLord</string>
+    <string name="app_name">Exercise Generator Biceps</string>
     <string name="loading">Loading...</string>
     <string name="here_will_be_your_pass">here will be your password...\n Just press GENERATE</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="generate">generate</string>
+    <string name="settings_text">settings</string>
+    <string name="text_about">Create strong passwords with keywords from your favorite movie to protect your accounts.</string>
+    <string name="music">music</string>
+    <string name="text_activity_good">The biceps or biceps brachii (Latin: musculus biceps brachii, "two-headed muscle of the arm") is a large muscle that lies on the front of the upper arm between the shoulder and the elbow. Both heads of the muscle arise on the scapula and join to form a single muscle belly which is attached to the upper forearm. While the biceps crosses both the shoulder and elbow joints, its main function is at the elbow where it flexes the forearm and supinates the forearm. Both these movements are used when opening a bottle with a corkscrew: first biceps screws in the cork (supination), then it pulls the cork out (flexion).</string>
+    <string name="about"><u>about</u></string>
 
     <string-array name="diff_levels">
-        <item>SIMPLE</item>
-        <item>NORMAL</item>
-        <item>HARD</item>
+        <item>CARDIO</item>
+        <item>OLYMPIC_WEIGHTLIFTING</item>
+        <item>PLYOMETRICS</item>
+        <item>POWERLIFTING</item>
+        <item>STRENGTH</item>
+        <item>STRETCHING</item>
+        <item>STRONGMAN</item>
     </string-array>
 </resources>

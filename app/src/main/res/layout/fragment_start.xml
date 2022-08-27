@@ -78,6 +78,7 @@
         android:layout_margin="32dp"
         android:entries="@array/diff_levels"
         android:gravity="center"
+        android:minHeight="55dp"
         app:layout_constraintBottom_toTopOf="@id/btn_confirm"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05"

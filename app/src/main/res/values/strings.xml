@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Exercise Generator Chest</string>
+    <string name="app_name">Exercise Generator Triceps</string>
     <string name="loading">Loading...</string>
     <string name="here_will_be_your_pass">here will be your password...\n Just press GENERATE</string>
     <!-- TODO: Remove or change this placeholder text -->
@@ -8,7 +8,7 @@
     <string name="settings_text">settings</string>
     <string name="text_about">Create strong passwords with keywords from your favorite movie to protect your accounts.</string>
     <string name="music">music</string>
-    <string name="text_activity_good">With an overwhelming amount of chest exercises out there, its easy to skip on the fundamentals. So, if youre looking for the best chest exercises, youve come to the right place; add these five exercises to your next chest workout. International chest day swarms the gym floor every Monday, taking over free weight and barbell areas with bros pushing as much weight as possible away from their torso. But fear not, training chest isnt just for the bro splitters amongst us. \n\nCompound lifts such as the barbell bench press and bodyweight dips help develop upper body strength, power, core strength and posture, helping us with full-body lifts including the deadlift and squat.</string>
+    <string name="text_activity_good">We know you want to get onto the best tricep exercises (that is why you are here right?), so well keep this short. Put simply, your triceps are the muscles located on the back of the upper arm, and are made up of three heads: the lateral, medial and long heads. If you want to hit all three heads then you are going to need a range of different exercises and plethora of different tricep workouts, which is where the next section of this article comes in. The triceps is an extensor muscle of the elbow joint and an antagonist of the biceps and brachialis muscles. \n\n It has been suggested that the long head fascicle is employed when sustained force generation is demanded, or when there is a need for a synergistic control of the shoulder and elbow or both.</string>
     <string name="about"><u>about</u></string>
     <string name="vibration">vibration</string>
 

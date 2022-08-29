@@ -1,4 +1,4 @@
-package com.excercisegenpackone.excercisegenchest.recycler
+package com.excercisegenpackone.excercisegentriceps.recycler
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.excercisegenpackone.excercisegenchest.R
-import com.excercisegenpackone.excercisegenchest.databinding.SingleExerciseBinding
+import com.excercisegenpackone.excercisegentriceps.R
+import com.excercisegenpackone.excercisegentriceps.databinding.SingleExerciseBinding
 
 
 class ExerciseListAdapter() :

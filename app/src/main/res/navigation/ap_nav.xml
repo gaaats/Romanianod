@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/startFragment"
-        android:name="com.excercisegenpackone.excercisegenchest.StartFragment"
+        android:name="com.excercisegenpackone.excercisegentriceps.StartFragment"
         android:label="fragment_start"
         tools:layout="@layout/fragment_start" >
         <action
@@ -27,7 +27,7 @@
     </fragment>
     <fragment
         android:id="@+id/resultFragment"
-        android:name="com.excercisegenpackone.excercisegenchest.ResultFragment"
+        android:name="com.excercisegenpackone.excercisegentriceps.ResultFragment"
         android:label="fragment_result"
         tools:layout="@layout/fragment_result" >
         <action
@@ -41,7 +41,7 @@
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.excercisegenpackone.excercisegenchest.SettingsFragment"
+        android:name="com.excercisegenpackone.excercisegentriceps.SettingsFragment"
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings" />
 </navigation>

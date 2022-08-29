@@ -1,6 +1,6 @@
-package com.excercisegenpackone.excercisegenchest
+package com.excercisegenpackone.excercisegentriceps
 
-import com.excercisegenpackone.excercisegenchest.recycler.ExercicesListrRsponse
+import com.excercisegenpackone.excercisegentriceps.recycler.ExercicesListrRsponse
 import okhttp3.Interceptor
 import retrofit2.Response
 import retrofit2.http.GET
@@ -11,7 +11,7 @@ interface MuscleService {
     companion object {
         const val BASE_URL = "https://api.api-ninjas.com/v1/"
         const val API_KEY = BuildConfig.API_KEY
-        const val MUSCLE_GROUP = "chest"
+        const val MUSCLE_GROUP = "triceps"
     }
 
 

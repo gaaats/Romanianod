@@ -1,4 +1,4 @@
-package com.excercisegenpackone.excercisegenchest.recycler
+package com.excercisegenpackone.excercisegentriceps.recycler
 
 
 class ExercicesListrRsponse : ArrayList<ExercicesListrRsponseItem>()

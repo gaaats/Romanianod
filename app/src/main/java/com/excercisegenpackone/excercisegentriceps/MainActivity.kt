@@ -1,10 +1,10 @@
-package com.excercisegenpackone.excercisegenchest
+package com.excercisegenpackone.excercisegentriceps
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.google.android.material.snackbar.Snackbar
-import com.excercisegenpackone.excercisegenchest.databinding.ActivityMainBinding
+import com.excercisegenpackone.excercisegentriceps.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

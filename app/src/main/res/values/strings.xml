@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Exercise Generator Triceps</string>
+    <string name="app_name">Aurora Exertion Calves</string>
     <string name="loading">Loading...</string>
     <string name="here_will_be_your_pass">here will be your password...\n Just press GENERATE</string>
     <!-- TODO: Remove or change this placeholder text -->
@@ -8,7 +8,9 @@
     <string name="settings_text">settings</string>
     <string name="text_about">Create strong passwords with keywords from your favorite movie to protect your accounts.</string>
     <string name="music">music</string>
-    <string name="text_activity_good">We know you want to get onto the best tricep exercises (that is why you are here right?), so well keep this short. Put simply, your triceps are the muscles located on the back of the upper arm, and are made up of three heads: the lateral, medial and long heads. If you want to hit all three heads then you are going to need a range of different exercises and plethora of different tricep workouts, which is where the next section of this article comes in. The triceps is an extensor muscle of the elbow joint and an antagonist of the biceps and brachialis muscles. \n\n It has been suggested that the long head fascicle is employed when sustained force generation is demanded, or when there is a need for a synergistic control of the shoulder and elbow or both.</string>
+    <string name="text_activity_good">The calf is located on the posterior (back) of the lower leg. It consists of two muscles: the gastrocnemius and the soleus.
+
+The gastrocnemius is the bulkier portion of the calf and the larger of the two muscles. It has two origins that attach to the femur. The medial head originates on the medial condyle of the femur and lateral head originates on the lateral condyle of the femur. The insertion point is the posterior calcaneus via the Achilles tendon. The gastrocnemius plays a role in plantar flexion of the foot and knee flexion. Along with several other leg muscles, the calf muscles play an important role in how an individual stands, walks, runs, and jumps, making them essential muscles for both daily living and performance-based activities.</string>
     <string name="about"><u>about</u></string>
     <string name="vibration">vibration</string>
 

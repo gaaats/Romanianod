@@ -1,4 +1,4 @@
-package com.excercisegenpackone.excercisegentriceps
+package com.excercisegenpacksecond.excercisegencalves
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.excercisegenpackone.excercisegentriceps
+package com.excercisegenpacksecond.excercisegencalves
 
 import android.os.Bundle
 import android.util.Log
@@ -9,9 +9,9 @@ import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.DividerItemDecoration
-import com.excercisegenpackone.excercisegentriceps.databinding.FragmentResultBinding
-import com.excercisegenpackone.excercisegentriceps.recycler.ExerciseItem
-import com.excercisegenpackone.excercisegentriceps.recycler.ExerciseListAdapter
+import com.excercisegenpacksecond.excercisegencalves.databinding.FragmentResultBinding
+import com.excercisegenpacksecond.excercisegencalves.recycler.ExerciseItem
+import com.excercisegenpacksecond.excercisegencalves.recycler.ExerciseListAdapter
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

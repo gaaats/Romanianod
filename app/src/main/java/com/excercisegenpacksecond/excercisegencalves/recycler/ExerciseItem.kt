@@ -1,4 +1,4 @@
-package com.excercisegenpackone.excercisegentriceps.recycler
+package com.excercisegenpacksecond.excercisegencalves.recycler
 
 import kotlin.random.Random
 

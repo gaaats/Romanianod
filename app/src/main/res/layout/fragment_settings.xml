@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/main_colour_"
+    android:background="@drawable/bkg_custom_grad_lin"
     tools:context=".SettingsFragment">
 
     <androidx.constraintlayout.widget.Guideline
@@ -160,7 +160,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="14dp"
-        android:autoSizeTextType="uniform"
+        android:maxLines="16"
+        android:ellipsize="end"
         android:gravity="center"
         android:text="@string/text_activity_good"
         android:textColor="@color/add_colour_the_most_dark"

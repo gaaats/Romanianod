@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/ap_nav"
-    app:startDestination="@id/startFragment">
+    app:startDestination="@id/enterFragment">
 
     <fragment
         android:id="@+id/startFragment"
-        android:name="com.recipesgeneratorone.recipeartrice.StartFragment"
+        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.StartFragment"
         android:label="fragment_start"
         tools:layout="@layout/fragment_start">
         <action
@@ -24,10 +24,13 @@
             app:exitAnim="@anim/to_left"
             app:popEnterAnim="@anim/from_left"
             app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_startFragment_to_randomRecipeFragment"
+            app:destination="@id/randomRecipeFragment" />
     </fragment>
     <fragment
         android:id="@+id/resultFragment"
-        android:name="com.recipesgeneratorone.recipeartrice.ResultFragment"
+        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.ResultFragment"
         android:label="fragment_result"
         tools:layout="@layout/fragment_result">
         <action
@@ -45,19 +48,144 @@
             app:exitAnim="@anim/to_left"
             app:popEnterAnim="@anim/from_left"
             app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_resultFragment_to_favoriteFoodRecipesFragment"
+            app:destination="@id/favoriteFoodRecipesFragment" />
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.recipesgeneratorone.recipeartrice.SettingsFragment"
+        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.SettingsFragment"
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings" />
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.recipesgeneratorone.recipeartrice.DetailFragment"
+        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail" >
         <argument
             android:name="recipe"
-            app:argType="com.recipesgeneratorone.recipeartrice.entity.RecipesListNetItem" />
+            app:argType="com.recipesgenerartcaaaa.recipeartcaaaborogo.entity.RecipesListNetItem" />
     </fragment>
+    <fragment
+        android:id="@+id/favoriteFoodRecipesFragment"
+        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.FavoriteFoodRecipesFragment"
+        android:label="fragment_favorite_food_recipes"
+        tools:layout="@layout/fragment_favorite_food_recipes" />
+    <fragment
+        android:id="@+id/enterFragment"
+        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.EnterFragment"
+        android:label="fragment_enter"
+        tools:layout="@layout/fragment_enter" >
+        <action
+            android:id="@+id/action_enterFragment_to_startFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:destination="@id/startFragment" />
+        <action
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            android:id="@+id/action_enterFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            android:id="@+id/action_enterFragment_to_favoriteFoodRecipesFragment"
+            app:destination="@id/favoriteFoodRecipesFragment" />
+        <action
+            android:id="@+id/action_enterFragment_to_aboutFoodFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:destination="@id/aboutFoodFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFoodFragment"
+        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.AboutFoodFragment"
+        android:label="fragment_about_food"
+        tools:layout="@layout/fragment_about_food" >
+        <action
+            android:id="@+id/action_aboutFoodFragment_to_countryFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:destination="@id/countryFragment" />
+        <action
+            android:id="@+id/action_aboutFoodFragment_to_historyFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:destination="@id/historyFragment" />
+        <action
+            android:id="@+id/action_aboutFoodFragment_to_benefitsFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:destination="@id/benefitsFragment" />
+        <action
+            android:id="@+id/action_aboutFoodFragment_to_disadvantagesFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:destination="@id/disadvantagesFragment" />
+        <action
+            android:id="@+id/action_aboutFoodFragment_to_flavorFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:destination="@id/flavorFragment" />
+        <action
+            android:id="@+id/action_aboutFoodFragment_to_cultivationFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:destination="@id/cultivationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/countryFragment"
+        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.CountryFragment"
+        android:label="fragment_country"
+        tools:layout="@layout/fragment_country" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/benefitsFragment"
+        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.BenefitsFragment"
+        android:label="fragment_benefits"
+        tools:layout="@layout/fragment_benefits" />
+    <fragment
+        android:id="@+id/disadvantagesFragment"
+        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.DisadvantagesFragment"
+        android:label="fragment_disadvantages"
+        tools:layout="@layout/fragment_disadvantages" />
+    <fragment
+        android:id="@+id/flavorFragment"
+        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.PhotosFragment"
+        android:label="fragment_flavor"
+        tools:layout="@layout/fragment_photos" />
+    <fragment
+        android:id="@+id/cultivationFragment"
+        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.CultivationFragment"
+        android:label="fragment_cultivation"
+        tools:layout="@layout/fragment_cultivation" />
+    <fragment
+        android:id="@+id/randomRecipeFragment"
+        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.RandomRecipeFragment"
+        android:label="fragment_random_recipe"
+        tools:layout="@layout/fragment_random_recipe" />
 </navigation>

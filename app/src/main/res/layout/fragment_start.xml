@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/main_colour_"
+    android:background="@drawable/bkg_custom_grad_lin"
     tools:context=".StartFragment">
 
     <androidx.constraintlayout.widget.Guideline
@@ -52,8 +52,9 @@
     <ImageView
         android:id="@+id/img_main_logo"
         android:layout_width="0dp"
+        android:padding="48dp"
         android:layout_height="0dp"
-        android:src="@drawable/main_logo"
+        android:src="@drawable/logo"
         app:layout_constraintDimensionRatio="1,1"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05"
@@ -64,7 +65,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:elevation="1dp"
-        android:src="@drawable/ic_baseline_settings_24"
+        android:src="@drawable/ic_baseline_more_horiz_24"
         app:layout_constraintBottom_toBottomOf="@id/guideline_hor_10"
         app:layout_constraintDimensionRatio="1,1"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
@@ -79,7 +80,7 @@
         android:entries="@array/servings"
         android:gravity="center"
         android:minHeight="55dp"
-        app:layout_constraintBottom_toTopOf="@id/btn_confirm"
+        app:layout_constraintBottom_toTopOf="@id/btn_go_to_game_random"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05"
         app:layout_constraintTop_toBottomOf="@id/img_main_logo" />
@@ -103,11 +104,27 @@
         android:layout_height="wrap_content"
         android:background="@drawable/custom_cornered_btn"
         android:fontFamily="@font/montserrat_black"
-        android:text="get recipe"
+        android:text="get all recipes"
         android:textAllCaps="true"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@id/guideline_hor_95"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/guideline_vert_05" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_go_to_game_random"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_cornered_btn"
+        android:fontFamily="@font/montserrat_black"
+        android:text="* get random recipe"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@id/btn_confirm"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05" />

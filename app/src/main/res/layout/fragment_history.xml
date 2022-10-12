@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bkg_custom_grad_lin"
+    android:layout_height="match_parent"
+    tools:context=".HistoryFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.30" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.10" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.20" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.13" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vert_95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vert_05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_title_settings"
+        style="@style/text_settings_style"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:text="history"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_hor_10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guideline_hor_05" />
+
+    <ImageView
+        android:id="@+id/btn_img_exit"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/ic_baseline_close_24"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_hor_10"
+        app:layout_constraintDimensionRatio="1,1"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
+        app:layout_constraintTop_toTopOf="@id/guideline_hor_05" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_about_game_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:maxLines="25"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:text="Although cabbage has an extensive history,[1] it is difficult to trace its exact origins owing to the many varieties of leafy greens classified as brassicas.[28] A possible wild ancestor of cabbage, Brassica oleracea, originally found in Britain and continental Europe, is tolerant of salt but not encroachment by other plants and consequently inhabits rocky cliffs in cool damp coastal habitats,[29] retaining water and nutrients in its slightly thickened, turgid leaves. \n\n However, genetic analysis is consistent with feral origin of this population, deriving from plants escaped from field and gardens.[30] According to the triangle of U theory of the evolution and relationships between Brassica species, B. oleracea and other closely related kale vegetables (cabbages, kale, broccoli, Brussels sprouts, and cauliflower) represent one of three ancestral lines from which all other brassicas originated.[31]
+\n
+Cabbage was probably domesticated later in history than Near Eastern crops such as lentils and summer wheat. Because of the wide range of crops developed from the wild B. oleracea, multiple broadly contemporaneous domestications of cabbage may have occurred throughout Europe. Nonheading cabbages and kale were probably the first to be domesticated, before 1000 BC,[32] perhaps by the Celts of central and western Europe,[10] although recent linguistic and genetic evidence enforces a Mediterranean origin of cultivated brassicas.[33]
+\n\n
+While unidentified brassicas were part of the highly conservative unchanging Mesopotamian garden repertory,[34] it is believed that the ancient Egyptians did not cultivate cabbage,[35] which is not native to the Nile valley, though the word shaw't in Papyrus Harris of the time of Ramesses III has been interpreted as cabbage.[36] The ancient Greeks had some varieties of cabbage, as mentioned by Theophrastus, although whether they were more closely related to today's cabbage or to one of the other Brassica crops is unknown.[32] The headed cabbage variety was known to the Greeks as krambe and to the Romans as brassica or olus;[37] the open, leafy variety (kale) was known in Greek as raphanos and in Latin as caulis.[37] Ptolemaic Egyptians knew the cole crops as gramb, under the influence of Greek krambe, which had been a familiar plant to the Macedonian antecedents of the Ptolemies.[36] By early Roman times, Egyptian artisans and children were eating cabbage and turnips among a wide variety of other vegetables and pulses.[38]"
+        android:textColor="@color/add_colour_the_most_dark"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintTop_toBottomOf="@id/tv_title_settings"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_hor_95"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
+        app:layout_constraintStart_toStartOf="@id/guideline_vert_05" />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

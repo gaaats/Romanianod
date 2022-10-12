@@ -10,23 +10,24 @@
     <color name="main_grey">#d9d9d9</color>
 
 
-    <color name="main_colour_">#A7D1D2</color>
-    <color name="colour_almost_main">#63898C</color>
+    <color name="main_colour_">#F4F880</color>
+    <color name="colour_almost_main">#F2A60A</color>
 
-    <color name="add_colour_the_most_dark">#033540</color>
+    <color name="add_colour_the_most_dark">#011E05</color>
 
-    <color name="colour_brighter_then_the_most_dark">#135E6E</color>
+    <color name="colour_brighter_then_the_most_dark">#961B06</color>
 
-    <color name="add_colour_not_like_main_1">#015366</color>
-    <color name="add_colour_not_like_main_2">#E0F4F5</color>
+    <color name="add_colour_not_like_main_1">#D7620F</color>
+    <color name="add_colour_not_like_main_2">#A1521A</color>
 
 
-    <color name="main_colour_black">#101116</color>
+    <color name="main_colour_black">#131410</color>
 
     <color name="add_colour_2">#1c1207</color>
     <color name="add_colour_3_text_btn">#F2F2EF</color>
 
     <color name="prog_bar_grey">#4C4848</color>
     <color name="prog_bar_end_colour">#F81313</color>
+    <color name="red">#8A0505</color>
     <color name="prog_bar_start_colour">#FF4C00</color>
 </resources>

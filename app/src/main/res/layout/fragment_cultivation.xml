@@ -109,7 +109,7 @@
         android:maxLines="29"
         android:ellipsize="end"
         android:gravity="center"
-        android:text="Due to its high level of nutrient requirements, cabbage is prone to nutrient deficiencies, including boron, calcium, phosphorus and potassium.[54] There are several physiological disorders that can affect the postharvest appearance of cabbage. Internal tip burn occurs when the margins of inside leaves turn brown, but the outer leaves look normal. Necrotic spot is where there are oval sunken spots a few millimeters across that are often grouped around the midrib. In pepper spot, tiny black spots occur on the areas between the veins, which can increase during storage.\n\nFungal diseases include wirestem, which causes weak or dying transplants; Fusarium yellows, which result in stunted and twisted plants with yellow leaves; and blackleg (see Leptosphaeria maculans), which leads to sunken areas on stems and gray-brown spotted leaves.\n\nThe fungi Alternaria brassicae and A. brassicicola cause dark leaf spots in affected plants. They are both seedborne and airborne, and typically propagate from spores in infected plant debris left on the soil surface for up to twelve weeks after harvest. Rhizoctonia solani causes the post-emergence disease wirestem, resulting in killed seedlings (damping-off), root rot or stunted growth and smaller heads."
+        android:text="@string/food_cultivation"
         android:textColor="@color/add_colour_the_most_dark"
         android:textSize="16sp"
         android:textStyle="italic"

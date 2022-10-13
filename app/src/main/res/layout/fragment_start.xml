@@ -92,7 +92,7 @@
         android:fontFamily="@font/montserrat_black"
         android:gravity="center"
         android:textAllCaps="true"
-        android:hint="* choose your servings number"
+        android:hint="* choose your favorite"
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toTopOf="@id/spinner_delivery_company"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"

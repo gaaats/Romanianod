@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/startFragment"
-        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.StartFragment"
+        android:name="com.recipesgenerartpizzo.recipeartgrodo.StartFragment"
         android:label="fragment_start"
         tools:layout="@layout/fragment_start">
         <action
@@ -30,7 +30,7 @@
     </fragment>
     <fragment
         android:id="@+id/resultFragment"
-        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.ResultFragment"
+        android:name="com.recipesgenerartpizzo.recipeartgrodo.ResultFragment"
         android:label="fragment_result"
         tools:layout="@layout/fragment_result">
         <action
@@ -54,26 +54,26 @@
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.SettingsFragment"
+        android:name="com.recipesgenerartpizzo.recipeartgrodo.SettingsFragment"
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings" />
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.DetailFragment"
+        android:name="com.recipesgenerartpizzo.recipeartgrodo.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail" >
         <argument
             android:name="recipe"
-            app:argType="com.recipesgenerartcaaaa.recipeartcaaaborogo.entity.RecipesListNetItem" />
+            app:argType="com.recipesgenerartpizzo.recipeartgrodo.entity.RecipesListNetItem" />
     </fragment>
     <fragment
         android:id="@+id/favoriteFoodRecipesFragment"
-        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.FavoriteFoodRecipesFragment"
+        android:name="com.recipesgenerartpizzo.recipeartgrodo.FavoriteFoodRecipesFragment"
         android:label="fragment_favorite_food_recipes"
         tools:layout="@layout/fragment_favorite_food_recipes" />
     <fragment
         android:id="@+id/enterFragment"
-        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.EnterFragment"
+        android:name="com.recipesgenerartpizzo.recipeartgrodo.EnterFragment"
         android:label="fragment_enter"
         tools:layout="@layout/fragment_enter" >
         <action
@@ -107,7 +107,7 @@
     </fragment>
     <fragment
         android:id="@+id/aboutFoodFragment"
-        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.AboutFoodFragment"
+        android:name="com.recipesgenerartpizzo.recipeartgrodo.AboutFoodFragment"
         android:label="fragment_about_food"
         tools:layout="@layout/fragment_about_food" >
         <action
@@ -155,37 +155,37 @@
     </fragment>
     <fragment
         android:id="@+id/countryFragment"
-        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.CountryFragment"
+        android:name="com.recipesgenerartpizzo.recipeartgrodo.CountryFragment"
         android:label="fragment_country"
         tools:layout="@layout/fragment_country" />
     <fragment
         android:id="@+id/historyFragment"
-        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.HistoryFragment"
+        android:name="com.recipesgenerartpizzo.recipeartgrodo.HistoryFragment"
         android:label="fragment_history"
         tools:layout="@layout/fragment_history" />
     <fragment
         android:id="@+id/benefitsFragment"
-        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.BenefitsFragment"
+        android:name="com.recipesgenerartpizzo.recipeartgrodo.BenefitsFragment"
         android:label="fragment_benefits"
         tools:layout="@layout/fragment_benefits" />
     <fragment
         android:id="@+id/disadvantagesFragment"
-        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.DisadvantagesFragment"
+        android:name="com.recipesgenerartpizzo.recipeartgrodo.DisadvantagesFragment"
         android:label="fragment_disadvantages"
         tools:layout="@layout/fragment_disadvantages" />
     <fragment
         android:id="@+id/flavorFragment"
-        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.PhotosFragment"
+        android:name="com.recipesgenerartpizzo.recipeartgrodo.PhotosFragment"
         android:label="fragment_flavor"
         tools:layout="@layout/fragment_photos" />
     <fragment
         android:id="@+id/cultivationFragment"
-        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.CultivationFragment"
+        android:name="com.recipesgenerartpizzo.recipeartgrodo.CultivationFragment"
         android:label="fragment_cultivation"
         tools:layout="@layout/fragment_cultivation" />
     <fragment
         android:id="@+id/randomRecipeFragment"
-        android:name="com.recipesgenerartcaaaa.recipeartcaaaborogo.RandomRecipeFragment"
+        android:name="com.recipesgenerartpizzo.recipeartgrodo.RandomRecipeFragment"
         android:label="fragment_random_recipe"
         tools:layout="@layout/fragment_random_recipe" />
 </navigation>

@@ -103,14 +103,10 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:maxLines="25"
+        android:maxLines="27"
         android:ellipsize="end"
         android:gravity="center"
-        android:text="The large white butterfly (Pieris brassicae) is prevalent in eastern European countries. The diamondback moth (Plutella xylostella) and the cabbage moth (Mamestra brassicae) thrive in the higher summer temperatures of continental Europe, where they cause considerable damage to cabbage crops.[67] The cabbage looper (Trichoplusia ni) is infamous in North America for its voracious appetite and for producing frass that contaminates plants.[68] In India, the diamondback moth has caused losses up to 90 percent in crops that were not treated with insecticide.[69] \n\nDestructive soil insects include the cabbage root fly (Delia radicum) and the cabbage maggot (Hylemya brassicae), whose larvae can burrow into the part of plant consumed by humans.[67]
-\n\n
-Planting near other members of the cabbage family, or where these plants have been placed in previous years, can prompt the spread of pests and disease.[54] Excessive water and excessive heat can also cause cultivation problems.[65]
-\n\n
-Factors that contribute to reduced head weight include: growth in the compacted soils that result from no-till farming practices, drought, waterlogging, insect and disease incidence, and shading and nutrient stress caused by weeds.[55]"
+        android:text="@string/food_region"
         android:textColor="@color/add_colour_the_most_dark"
         android:textSize="16sp"
         android:textStyle="italic"

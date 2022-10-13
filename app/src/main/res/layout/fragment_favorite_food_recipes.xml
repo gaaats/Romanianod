@@ -99,9 +99,9 @@
         android:fontFamily="@font/montserrat_black"
         android:paddingStart="100dp"
         android:paddingEnd="90dp"
-        android:text="save"
+        android:text="ok"
         android:textSize="20sp"
-        app:icon="@drawable/ic_baseline_save_24"
+        app:icon="@drawable/ic_baseline_done_outline_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05" />

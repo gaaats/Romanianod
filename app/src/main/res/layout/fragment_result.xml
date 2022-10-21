@@ -106,7 +106,7 @@
         android:id="@+id/img_main"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:src="@drawable/logo"
+        android:src="@drawable/logo_1"
         app:layout_constraintBottom_toBottomOf="@id/guideline_hor_35"
         app:layout_constraintDimensionRatio="1,1"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
@@ -115,18 +115,15 @@
 
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_go_to_favorites"
+        android:id="@+id/btn_go_back"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="16dp"
         android:fontFamily="@font/montserrat_black"
-        android:paddingStart="50dp"
-        android:paddingEnd="50dp"
-        android:text="Favorites"
+        android:text="go back"
         android:textSize="20sp"
-        app:icon="@drawable/ic_baseline_favorite_border_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05" />
@@ -152,7 +149,7 @@
             android:fontFamily="@font/open_sans_bold"
             android:gravity="start"
             android:paddingStart="10dp"
-            android:text="Title"
+            android:text="Event"
             android:textAllCaps="true"
             android:textColor="@color/add_colour_the_most_dark"
             android:textSize="14sp" />
@@ -169,7 +166,7 @@
             android:fontFamily="@font/open_sans_bold"
             android:gravity="start"
             android:layout_marginStart="4dp"
-            android:text="Ingredients"
+            android:text="year"
             android:textAllCaps="true"
             android:textColor="@color/add_colour_the_most_dark"
             android:textSize="14sp" />
@@ -185,7 +182,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/bkg_custom_grad_lin"
-        app:layout_constraintBottom_toTopOf="@id/btn_go_to_favorites"
+        app:layout_constraintBottom_toTopOf="@id/btn_go_back"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05"
         app:layout_constraintTop_toBottomOf="@id/img_main">
@@ -198,11 +195,7 @@
             android:background="@drawable/bkg_custom_grad_lin"
             android:gravity="center"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            app:layout_constraintBottom_toTopOf="@id/btn_copy"
-            app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
-            app:layout_constraintStart_toStartOf="@id/guideline_vert_05"
-            app:layout_constraintTop_toBottomOf="@id/img_main"
-            tools:listitem="@layout/single_food" />
+            tools:listitem="@layout/single_event" />
 
 
     </androidx.cardview.widget.CardView>

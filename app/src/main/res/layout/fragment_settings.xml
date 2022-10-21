@@ -102,7 +102,7 @@
         android:layout_margin="10dp"
         android:gravity="center"
         android:textStyle="bold"
-        android:text="@string/music"
+        android:text="difficulty"
         android:textAllCaps="true"
         android:textColor="@color/add_colour_the_most_dark"
         android:textSize="20sp"
@@ -132,7 +132,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:gravity="center"
-        android:text="@string/vibration"
+        android:text="interesting level"
         android:textAllCaps="true"
         android:textColor="@color/add_colour_the_most_dark"
         android:textSize="20sp"
@@ -147,7 +147,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:progress="90"
+        android:progress="95"
         android:progressDrawable="@drawable/seek_bar_custom"
         android:thumb="@drawable/thumb_custom"
         android:thumbTint="@color/add_colour_the_most_dark"
@@ -163,7 +163,7 @@
         android:maxLines="16"
         android:ellipsize="end"
         android:gravity="center"
-        android:text="@string/text_activity_good"
+        android:text="@string/country_about_settings_short"
         android:textColor="@color/add_colour_the_most_dark"
         android:textSize="16sp"
         android:textStyle="italic"
@@ -177,13 +177,26 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:progress="30"
+        android:progress="10"
         android:progressDrawable="@drawable/seek_bar_custom"
         android:thumb="@drawable/thumb_custom"
         android:thumbTint="@color/add_colour_the_most_dark"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05"
         app:layout_constraintTop_toTopOf="@id/guideline_hor_30" />
+
+    <TextView
+        android:id="@+id/tv_dovn_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:layout_marginTop="8dp"
+        android:textAllCaps="true"
+        android:fontFamily="@font/opensans_regular"
+        android:text="© romanianod"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline_hor_95" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

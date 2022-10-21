@@ -6,83 +6,20 @@
     app:startDestination="@id/enterFragment">
 
     <fragment
-        android:id="@+id/startFragment"
-        android:name="com.recipesgenerartpizzo.recipeartgrodo.StartFragment"
-        android:label="fragment_start"
-        tools:layout="@layout/fragment_start">
-        <action
-            android:id="@+id/action_startFragment_to_resultFragment"
-            app:destination="@id/resultFragment"
-            app:enterAnim="@anim/from_right"
-            app:exitAnim="@anim/to_left"
-            app:popEnterAnim="@anim/from_left"
-            app:popExitAnim="@anim/to_right" />
-        <action
-            android:id="@+id/action_startFragment_to_settingsFragment"
-            app:destination="@id/settingsFragment"
-            app:enterAnim="@anim/from_right"
-            app:exitAnim="@anim/to_left"
-            app:popEnterAnim="@anim/from_left"
-            app:popExitAnim="@anim/to_right" />
-        <action
-            android:id="@+id/action_startFragment_to_randomRecipeFragment"
-            app:destination="@id/randomRecipeFragment" />
-    </fragment>
-    <fragment
         android:id="@+id/resultFragment"
-        android:name="com.recipesgenerartpizzo.recipeartgrodo.ResultFragment"
+        android:name="com.historyappart.romehistory.ResultFragment"
         android:label="fragment_result"
-        tools:layout="@layout/fragment_result">
-        <action
-            android:id="@+id/action_resultFragment_to_startFragment"
-            app:destination="@id/startFragment"
-            app:enterAnim="@anim/from_left"
-            app:exitAnim="@anim/to_right"
-            app:launchSingleTop="false"
-            app:popEnterAnim="@anim/from_right"
-            app:popExitAnim="@anim/to_left" />
-        <action
-            android:id="@+id/action_resultFragment_to_detailFragment"
-            app:destination="@id/detailFragment"
-            app:enterAnim="@anim/from_right"
-            app:exitAnim="@anim/to_left"
-            app:popEnterAnim="@anim/from_left"
-            app:popExitAnim="@anim/to_right" />
-        <action
-            android:id="@+id/action_resultFragment_to_favoriteFoodRecipesFragment"
-            app:destination="@id/favoriteFoodRecipesFragment" />
-    </fragment>
+        tools:layout="@layout/fragment_result"/>
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.recipesgenerartpizzo.recipeartgrodo.SettingsFragment"
+        android:name="com.historyappart.romehistory.SettingsFragment"
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings" />
     <fragment
-        android:id="@+id/detailFragment"
-        android:name="com.recipesgenerartpizzo.recipeartgrodo.DetailFragment"
-        android:label="fragment_detail"
-        tools:layout="@layout/fragment_detail" >
-        <argument
-            android:name="recipe"
-            app:argType="com.recipesgenerartpizzo.recipeartgrodo.entity.RecipesListNetItem" />
-    </fragment>
-    <fragment
-        android:id="@+id/favoriteFoodRecipesFragment"
-        android:name="com.recipesgenerartpizzo.recipeartgrodo.FavoriteFoodRecipesFragment"
-        android:label="fragment_favorite_food_recipes"
-        tools:layout="@layout/fragment_favorite_food_recipes" />
-    <fragment
         android:id="@+id/enterFragment"
-        android:name="com.recipesgenerartpizzo.recipeartgrodo.EnterFragment"
+        android:name="com.historyappart.romehistory.EnterFragment"
         android:label="fragment_enter"
         tools:layout="@layout/fragment_enter" >
-        <action
-            android:id="@+id/action_enterFragment_to_startFragment"
-            app:enterAnim="@anim/from_right"
-            app:exitAnim="@anim/to_left"
-            app:popEnterAnim="@anim/from_left"
-            app:popExitAnim="@anim/to_right"
-            app:destination="@id/startFragment" />
         <action
             app:enterAnim="@anim/from_right"
             app:exitAnim="@anim/to_left"
@@ -91,101 +28,43 @@
             android:id="@+id/action_enterFragment_to_settingsFragment"
             app:destination="@id/settingsFragment" />
         <action
+            android:id="@+id/action_enterFragment_to_resultFragment"
             app:enterAnim="@anim/from_right"
             app:exitAnim="@anim/to_left"
             app:popEnterAnim="@anim/from_left"
             app:popExitAnim="@anim/to_right"
-            android:id="@+id/action_enterFragment_to_favoriteFoodRecipesFragment"
-            app:destination="@id/favoriteFoodRecipesFragment" />
+            app:destination="@id/resultFragment" />
         <action
-            android:id="@+id/action_enterFragment_to_aboutFoodFragment"
+            android:id="@+id/action_enterFragment_to_personFamousFragment"
             app:enterAnim="@anim/from_right"
             app:exitAnim="@anim/to_left"
             app:popEnterAnim="@anim/from_left"
             app:popExitAnim="@anim/to_right"
-            app:destination="@id/aboutFoodFragment" />
+            app:destination="@id/personFamousFragment" />
+        <action
+            android:id="@+id/action_enterFragment_to_soldiersFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:destination="@id/soldiersFragment" />
+        <action
+            android:id="@+id/action_enterFragment_to_countryFragment"
+            app:destination="@id/countryFragment" />
     </fragment>
     <fragment
-        android:id="@+id/aboutFoodFragment"
-        android:name="com.recipesgenerartpizzo.recipeartgrodo.AboutFoodFragment"
-        android:label="fragment_about_food"
-        tools:layout="@layout/fragment_about_food" >
-        <action
-            android:id="@+id/action_aboutFoodFragment_to_countryFragment"
-            app:enterAnim="@anim/from_right"
-            app:exitAnim="@anim/to_left"
-            app:popEnterAnim="@anim/from_left"
-            app:popExitAnim="@anim/to_right"
-            app:destination="@id/countryFragment" />
-        <action
-            android:id="@+id/action_aboutFoodFragment_to_historyFragment"
-            app:enterAnim="@anim/from_right"
-            app:exitAnim="@anim/to_left"
-            app:popEnterAnim="@anim/from_left"
-            app:popExitAnim="@anim/to_right"
-            app:destination="@id/historyFragment" />
-        <action
-            android:id="@+id/action_aboutFoodFragment_to_benefitsFragment"
-            app:enterAnim="@anim/from_right"
-            app:exitAnim="@anim/to_left"
-            app:popEnterAnim="@anim/from_left"
-            app:popExitAnim="@anim/to_right"
-            app:destination="@id/benefitsFragment" />
-        <action
-            android:id="@+id/action_aboutFoodFragment_to_disadvantagesFragment"
-            app:enterAnim="@anim/from_right"
-            app:exitAnim="@anim/to_left"
-            app:popEnterAnim="@anim/from_left"
-            app:popExitAnim="@anim/to_right"
-            app:destination="@id/disadvantagesFragment" />
-        <action
-            android:id="@+id/action_aboutFoodFragment_to_flavorFragment"
-            app:enterAnim="@anim/from_right"
-            app:exitAnim="@anim/to_left"
-            app:popEnterAnim="@anim/from_left"
-            app:popExitAnim="@anim/to_right"
-            app:destination="@id/flavorFragment" />
-        <action
-            android:id="@+id/action_aboutFoodFragment_to_cultivationFragment"
-            app:enterAnim="@anim/from_right"
-            app:exitAnim="@anim/to_left"
-            app:popEnterAnim="@anim/from_left"
-            app:popExitAnim="@anim/to_right"
-            app:destination="@id/cultivationFragment" />
-    </fragment>
+        android:id="@+id/personFamousFragment"
+        android:name="com.historyappart.romehistory.PersonFamousFragment"
+        android:label="fragment_person_famous"
+        tools:layout="@layout/fragment_person_famous" />
+    <fragment
+        android:id="@+id/soldiersFragment"
+        android:name="com.historyappart.romehistory.SoldiersFragment"
+        android:label="fragment_soldiers"
+        tools:layout="@layout/fragment_soldiers" />
     <fragment
         android:id="@+id/countryFragment"
-        android:name="com.recipesgenerartpizzo.recipeartgrodo.CountryFragment"
+        android:name="com.historyappart.romehistory.CountryFragment"
         android:label="fragment_country"
         tools:layout="@layout/fragment_country" />
-    <fragment
-        android:id="@+id/historyFragment"
-        android:name="com.recipesgenerartpizzo.recipeartgrodo.HistoryFragment"
-        android:label="fragment_history"
-        tools:layout="@layout/fragment_history" />
-    <fragment
-        android:id="@+id/benefitsFragment"
-        android:name="com.recipesgenerartpizzo.recipeartgrodo.BenefitsFragment"
-        android:label="fragment_benefits"
-        tools:layout="@layout/fragment_benefits" />
-    <fragment
-        android:id="@+id/disadvantagesFragment"
-        android:name="com.recipesgenerartpizzo.recipeartgrodo.DisadvantagesFragment"
-        android:label="fragment_disadvantages"
-        tools:layout="@layout/fragment_disadvantages" />
-    <fragment
-        android:id="@+id/flavorFragment"
-        android:name="com.recipesgenerartpizzo.recipeartgrodo.PhotosFragment"
-        android:label="fragment_flavor"
-        tools:layout="@layout/fragment_photos" />
-    <fragment
-        android:id="@+id/cultivationFragment"
-        android:name="com.recipesgenerartpizzo.recipeartgrodo.CultivationFragment"
-        android:label="fragment_cultivation"
-        tools:layout="@layout/fragment_cultivation" />
-    <fragment
-        android:id="@+id/randomRecipeFragment"
-        android:name="com.recipesgenerartpizzo.recipeartgrodo.RandomRecipeFragment"
-        android:label="fragment_random_recipe"
-        tools:layout="@layout/fragment_random_recipe" />
 </navigation>
